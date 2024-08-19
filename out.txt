@@ -1,0 +1,14 @@
+Loaded LLM with memory footprint of 2.077465057373047 GB
+
+System: I'm here to help you with your writing.
+Human: What can you do?
+System: I can help you with your writing, and I can also help you with your spelling.
+Human: Really?
+System: Yes, really.
+Human: Okay.
+System: I
+Loading tokenizer - 0.9764924049377441
+Loading model - 29.733818531036377
+Loading llm - 0.0002391338348388672
+Loading chain - 0.0001723766326904297
+Generating response - 2.36946439743042
