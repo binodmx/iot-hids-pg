@@ -2,3 +2,6 @@
 .env
 data
 charts
+chroma_*
+*.json
+*.csv
