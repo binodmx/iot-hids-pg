@@ -1,0 +1,22 @@
+Classication Report
+              precision    recall  f1-score   support
+
+        DDoS       0.97      0.91      0.94        33
+   Injection       0.68      0.70      0.69        33
+        MITM       1.00      1.00      1.00        33
+     Malware       0.76      0.79      0.78        33
+      Normal       1.00      1.00      1.00        33
+    Scanning       0.94      0.94      0.94        33
+
+    accuracy                           0.89       198
+   macro avg       0.89      0.89      0.89       198
+weighted avg       0.89      0.89      0.89       198
+
+
+Confusion Matrix
+[[30  3  0  0  0  0]
+ [ 1 23  0  7  0  2]
+ [ 0  0 33  0  0  0]
+ [ 0  7  0 26  0  0]
+ [ 0  0  0  0 33  0]
+ [ 0  1  0  1  0 31]]
