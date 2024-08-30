@@ -1,4 +1,0 @@
-Traceback (most recent call last):
-  File "/opt/home/s4025371/repositories/iot-llm/1-cic-iot/preprocess.py", line 6, in <module>
-    dfs = [pd.read_csv(path + file_name) for file_name in os.listdir(path) if file_name.endswith('.csv')]
-FileNotFoundError: [Errno 2] No such file or directory: '/opt/home/s4025371/repositories/iot-llm/../data/cic-iot/CSV/'
