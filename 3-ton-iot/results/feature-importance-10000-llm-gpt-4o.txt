@@ -1,0 +1,30 @@
+```python
+['proto', 'service', 'duration', 'src_bytes', 'conn_state']
+```
+```python
+['proto', 'service', 'conn_state', 'src_bytes', 'dst_bytes']
+```
+```python
+['proto', 'service', 'conn_state', 'src_bytes', 'dst_bytes']
+```
+```python
+['proto', 'service', 'conn_state', 'src_bytes', 'dst_bytes']
+```
+```python
+['proto', 'service', 'duration', 'src_bytes', 'conn_state']
+```
+```python
+['proto', 'service', 'conn_state', 'src_bytes', 'dst_bytes']
+```
+```python
+['proto', 'service', 'duration', 'src_bytes', 'conn_state']
+```
+```python
+['proto', 'service', 'duration', 'src_bytes', 'conn_state']
+```
+```python
+['proto', 'service', 'conn_state', 'src_bytes', 'dst_bytes']
+```
+```python
+['proto', 'service', 'conn_state', 'src_bytes', 'dst_bytes']
+```

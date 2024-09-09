@@ -6,3 +6,4 @@ charts
 chroma_*
 *.json
 *.csv
+.conda

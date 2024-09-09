@@ -1,0 +1,9 @@
+```json
+{
+  "proto": "if proto == 'udp' then attack else normal",
+  "state": "if state == 'INT' then attack else normal",
+  "dpkts": "if dpkts == 0 then attack else normal",
+  "dbytes": "if dbytes == 0 then attack else normal",
+  "rate": "if rate > 100000 then attack else normal"
+}
+```

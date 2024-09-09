@@ -1,0 +1,30 @@
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.dstport', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.connection.synack', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.connection.synack', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.connection.synack', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.connection.synack', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.dstport', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.connection.synack', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.connection.synack', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.dstport', 'tcp.options']
+```
+```python
+['tcp.connection.fin', 'tcp.connection.syn', 'tcp.connection.rst', 'tcp.connection.synack', 'tcp.options']
+```

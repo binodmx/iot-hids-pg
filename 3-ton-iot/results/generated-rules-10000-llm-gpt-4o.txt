@@ -1,0 +1,9 @@
+```json
+{
+  "proto": "if proto == 'udp' then normal else attack",
+  "service": "if service == 'dns' then normal else attack",
+  "conn_state": "if conn_state == 'S0' then normal else attack",
+  "src_bytes": "if src_bytes == 66 then normal else attack",
+  "dst_bytes": "if dst_bytes == 0 then normal else attack"
+}
+```

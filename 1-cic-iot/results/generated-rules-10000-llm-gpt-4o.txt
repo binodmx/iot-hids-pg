@@ -1,0 +1,9 @@
+```json
+{
+  "flow_duration": "if flow_duration < 1 then attack else normal",
+  "Header_Length": "if Header_Length < 100 then attack else normal",
+  "Rate": "if Rate < 10 then attack else normal",
+  "ack_flag_number": "if ack_flag_number == 0 then attack else normal",
+  "syn_flag_number": "if syn_flag_number == 1 then attack else normal"
+}
+```

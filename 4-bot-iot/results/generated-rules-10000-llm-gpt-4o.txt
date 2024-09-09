@@ -1,0 +1,9 @@
+```json
+{
+  "stddev": "if stddev > 0.0 then attack else normal",
+  "N_IN_Conn_P_SrcIP": "if N_IN_Conn_P_SrcIP > 18 then attack else normal",
+  "mean": "if mean > 0.0 then attack else normal",
+  "N_IN_Conn_P_DstIP": "if N_IN_Conn_P_DstIP > 18 then attack else normal",
+  "max": "if max > 0.0 then attack else normal"
+}
+```

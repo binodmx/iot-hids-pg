@@ -1,0 +1,7 @@
+['flow_duration', 'Rate', 'Srate', 'Drate', 'IAT'] 
+['flow_duration', 'Rate', 'Srate', 'syn_flag_number', 'IAT'] 
+['flow_duration', 'Rate', 'Srate', 'syn_flag_number', 'IAT'] 
+['flow_duration', 'Rate', 'Srate', 'syn_flag_number', 'rst_flag_number'] 
+['flow_duration', 'Rate', 'Srate', 'syn_flag_number', 'IAT'] 
+['flow_duration', 'Rate', 'Srate', 'syn_flag_number', 'IAT'] 
+

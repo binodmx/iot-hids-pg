@@ -1,8 +1,8 @@
 Classication Report
               precision    recall  f1-score   support
 
-      attack       0.99      1.00      0.99      1000
-      normal       1.00      0.99      0.99      1000
+      attack       0.99      0.99      0.99      1000
+      normal       0.99      0.99      0.99      1000
 
     accuracy                           0.99      2000
    macro avg       0.99      0.99      0.99      2000
@@ -10,5 +10,5 @@ weighted avg       0.99      0.99      0.99      2000
 
 
 Confusion Matrix
-[[997   3]
+[[986  14]
  [ 10 990]]
