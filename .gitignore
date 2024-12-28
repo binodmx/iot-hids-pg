@@ -3,7 +3,9 @@ data
 results
 vector-stores
 charts
+tests
+.conda
+
 chroma_*
 *.json
 *.csv
-.conda
