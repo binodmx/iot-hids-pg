@@ -2,13 +2,13 @@
 
 ## Introduction
 
-In this research we try to find how LLMs perform to improve the IoT security and access control.
+In this research we try to find how Large Language Models (LLMs) perform to improve the IoT security and access control. In particular, we investigate whether LLMs can generate effective policies (rules) to detect intrusion attacks in IoT systems. This experiment integrates Retrieval-Augmented Generation (RAG) and function calling capabilities of LLMs to build a novel policy generation framework for IoT Intrusion Detection Systems.
 
 ## Getting Started
 
 1. Clone the repository.
 2. Install required Python libraries using `pip install -r requirements.txt`.
-3. Create `.env` file and add API keys.
+3. Create `.env` file in the root directory and add API keys as follows.
 
     ```bash
     HUGGINGFACEHUB_API_TOKEN=
@@ -17,21 +17,24 @@ In this research we try to find how LLMs perform to improve the IoT security and
     ANTHROPIC_API_KEY=
     ```
 
-4. Create the `data` directory and sub directories as follows.
+4. Create `data` directory in the root directory and sub directories for datasets as follows.
 
     ```
-    iot-llm
-      └-data
-        |-cic-iot
-        |-wustl-iiot
-        |-ton-iot
-        |-bot-iot
-        └-unsw-nb15
+    data
+    |-cic-iot
+    |-wustl-iiot
+    |-ton-iot
+    |-bot-iot
+    └-unsw-nb15
     ```
 
-5. Place downloaded datasets in the relevant directories.
+5. Place downloaded datasets in the relevant sub directories.
 
 6. Run Python notebooks in order for each dataset.
+
+    > For ex:
+    >
+    > Run `0-analysis.ipynb`, `1-preprocess.ipynb`, `2-evaluation-2-class-ml.ipynb`, `3-evaluation-2-class-vs.ipynb`, `4-evaluation-2-class-llm.ipynb` in `1-cic-iot` directory to evaluate `CICIoT2023` dataset.
 
 ## Datasets
 
@@ -46,12 +49,11 @@ In this research we try to find how LLMs perform to improve the IoT security and
 | N-BaIoT | N-BaIoT: Network-based Detection of IoT Botnet Attacks Using Deep Autoencoders | 2018 |
 | UNSW-NB15* | UNSW-NB15: A Comprehensive Data set for Network Intrusion Detection systems | 2015 |
 
-\* Used for our experiment.
-
 ## Large Language Models
 
 | Name | Provider |
 |-|-|
-| gpt-4o (gpt-4o-2024-05-13) | OpenAI |
+| gpt-4o* | OpenAI |
 | gemini-1.5-pro | Google |
 
+\* Used in our experiment.
