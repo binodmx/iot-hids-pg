@@ -5,7 +5,6 @@ vector-stores
 charts
 tests
 .conda
-
 chroma_*
 *.json
 *.csv

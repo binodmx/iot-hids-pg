@@ -1,4 +1,4 @@
-# RAG-Enhanced Large Language Model for Policy Generation in IoT Intrusion Detection Systems
+# LLM-driven Policy Generation for IoT Intrusion Detection Systems
 
 ## Introduction
 
@@ -11,10 +11,12 @@ In this research we try to find how Large Language Models (LLMs) perform to impr
 3. Create `.env` file in the root directory and add API keys as follows.
 
     ```bash
-    HUGGINGFACEHUB_API_TOKEN=
     OPENAI_API_KEY=
     GOOGLE_API_KEY=
     ANTHROPIC_API_KEY=
+    LANGCHAIN_API_KEY=
+    LANGCHAIN_PROJECT=
+    LANGCHAIN_TRACING_V2=
     ```
 
 4. Create `data` directory in the root directory and sub directories for datasets as follows.
@@ -34,7 +36,7 @@ In this research we try to find how Large Language Models (LLMs) perform to impr
 
     > For ex:
     >
-    > Run `0-analysis.ipynb`, `1-preprocess.ipynb`, `2-evaluation-2-class-ml.ipynb`, `3-evaluation-2-class-vs.ipynb`, `4-evaluation-2-class-llm.ipynb` in `1-cic-iot` directory to evaluate `CICIoT2023` dataset.
+    > Run `0-analysis.ipynb`, `1-preprocess.ipynb`, `2-evaluation-2-class-ml.ipynb`, `3-evaluation-2-class-vs.ipynb`, ... in `1-cic-iot` directory to evaluate `CICIoT2023` dataset.
 
 ## Datasets
 
@@ -51,9 +53,10 @@ In this research we try to find how Large Language Models (LLMs) perform to impr
 
 ## Large Language Models
 
-| Name | Provider |
-|-|-|
-| gpt-4o* | OpenAI |
-| gemini-1.5-pro | Google |
+| Name               | Provider  |
+|--------------------|-----------|
+| gpt-4o*            | OpenAI    |
+| gemini-1.5-pro*    | Google    |
+| claude-3-5-sonnet* | Anthropic |
 
 \* Used in our experiment.
